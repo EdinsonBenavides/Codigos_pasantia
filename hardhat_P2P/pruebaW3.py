@@ -9,8 +9,8 @@ from web3.middleware import construct_sign_and_send_raw_middleware
 
 w3 = Web3(Web3.HTTPProvider("https://polygon-amoy.g.alchemy.com/v2/WCCpbH7LWuhhVDr3lnri9SisCJqWqSYm"))
 
-account_address = "0x3AF7E73d63dc07e6c6cd6eddD054132ABd943cbD"
-private_key = "c5eaf806e3d523a832711a0d96d1a5849019403b123abaf35fc9d6c1f8b77e15"
+account_address = ""
+private_key = ""
 nonce = w3.eth.get_transaction_count(account_address)
 
 addressContract = "0x6C22c16e9244F85192CE947800E016Ce04B7c8cd"
